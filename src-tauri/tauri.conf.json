@@ -1,0 +1,27 @@
+{
+  "productName": "RemoteOff",
+  "version": "1.0.0",
+  "identifier": "com.pc-shutdown",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "RemoteOff",
+        "width": 400,
+        "height": 400,
+        "resizable": false,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true
+  }
+}
